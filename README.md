@@ -20,6 +20,8 @@ dependencies:
  Pipewire to make sure that cava works,
  swww for images, as it can change them on the spot with a cool animation, not requiring a WM restart.,
 
+ slurp, grim, xclip, wl-copy to make use of the clip screenshot script!
+
 
 Screenshot:
 ![image](https://github.com/crimsonmoon2301/dotfiles/assets/150836006/4e9922b3-f341-4793-9452-e327c8641cdf)
