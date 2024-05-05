@@ -1,0 +1,3 @@
+#!/bin/bash
+#No login manager used, use this if you have a TTY. Execute it by writing shy 
+exec dbus-launch --exit-with-session sway
