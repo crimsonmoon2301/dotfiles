@@ -11,11 +11,11 @@ What's included?
 > A script for waybar that allows you to visualize as it listens in dbus.
 
 dependencies:
-> waybar, atleast 0.9.24
-> mako for the notifications
-> cava for the visualizer on the bar
-> sway
-> kitty, config for the color palette is included here.
-> wlogout, minor configuration required if you have systemd. dotfiles are made in gentoo with OpenRC init system. Stock theme, so you can go wild here.
-> Pipewire to make sure that cava works
-> swww for images, as it can change them on the spot with a cool animation, not requiring a WM restart.
+ waybar, atleast 0.9.24
+ mako for the notifications
+ cava for the visualizer on the bar
+ sway
+ kitty, config for the color palette is included here.
+ wlogout, minor configuration required if you have systemd. dotfiles are made in gentoo with OpenRC init system. Stock theme, so you can go wild here.
+ Pipewire to make sure that cava works
+ swww for images, as it can change them on the spot with a cool animation, not requiring a WM restart.
