@@ -23,6 +23,10 @@ dependencies:
  slurp, grim, xclip, wl-copy to make use of the clip screenshot script!
 
 
-Screenshot:
+Screenshots:
 ![image](https://github.com/crimsonmoon2301/dotfiles/assets/150836006/4e9922b3-f341-4793-9452-e327c8641cdf)
+![image](https://github.com/crimsonmoon2301/dotfiles/assets/150836006/a34944f7-9d6a-4345-a214-b1ad3e1ddc5c)
+![image](https://github.com/crimsonmoon2301/dotfiles/assets/150836006/e043e4a7-fa07-46ad-b268-2bb64dfad1d9)
+
+
 
