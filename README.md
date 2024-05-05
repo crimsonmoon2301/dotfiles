@@ -19,3 +19,8 @@ dependencies:
  wlogout, minor configuration required if you have systemd. dotfiles are made in gentoo with OpenRC init system. Stock theme, so you can go wild here.,
  Pipewire to make sure that cava works,
  swww for images, as it can change them on the spot with a cool animation, not requiring a WM restart.,
+
+
+Screenshot:
+![image](https://github.com/crimsonmoon2301/dotfiles/assets/150836006/4e9922b3-f341-4793-9452-e327c8641cdf)
+
