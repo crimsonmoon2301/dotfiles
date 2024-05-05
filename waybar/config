@@ -1,0 +1,59 @@
+{
+    "layer": "top",
+    "position": "top",
+    "modules-left": ["clock"],
+    "modules-center": ["custom/music"],
+    /* "modules-right": ["tray", "custom/scratchpad-indicator", "pulseaudio", "custom/power"], */
+    "modules-right": ["pulseaudio", "backlight", "memory", "cpu", "custom/powermenu"],
+
+    "custom/icon": {
+          "format": " ",
+          "tooltip": false,
+	  "foreground": "#d100ff"
+    }, 
+    "clock": {
+      		"tooltip": false,
+		"timezone": "Europe/Riga",
+		"format": "{:%R}",
+		"interval": 60
+    },
+    "pulseaudio": {
+        "format": "{volume}% {icon} ",
+        "format-bluetooth": "{volume}% {icon} {format_source}",
+        "format-bluetooth-muted": " {icon} {format_source}",
+        "format-muted": "0% {icon} ",
+        "format-source": "{volume}% ",
+        "format-source-muted": "",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", ""]
+        },
+        "on-click": "alsamixer"
+    },
+	"custom/powermenu": {
+		"format": " ",
+		"on-click": "sh -c '(sleep 0.1s; wlogout --protocol layer-shell)' & disown"
+	},
+    "custom/music": {
+	"format": "{icon}{}",
+	"format-icons": {
+		"Playing": "<span font='17' foreground='#fafafa' rise='-4000'> </span>",
+		"Paused": "<span font='17' foreground='#fafafa' rise='-4000'>󰏤 </span>",
+		"Stopped": "<span font='17' foreground='#fafafa' rise='-4000'>󰓛 </span>",
+	},
+	"escape": true,
+	"tooltip": true,
+	"exec": "~/.config/waybar/scripts/caway -b 15 -f 75",
+	"return-type": "json",
+	"on-click": "playerctl play-pause",
+	"on-scroll-up": "playerctl next",
+	"on-scroll-down": "playerctl previous",
+	"max-length": 35
+   }
+}
+
